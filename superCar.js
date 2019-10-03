@@ -1,6 +1,6 @@
 // depending on the ratio determine if car is a supercar  or not 
 // if less than 1 give back "Your car is not that special"
-// if  1 and above give back "You own a SupeCar"
+// if  1 and above give back "You own a SuperCar"
 
 
 
