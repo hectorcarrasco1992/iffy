@@ -10,9 +10,13 @@ function horsePowerToWeight(horsePower,weight){
     return hpw >= 1 ? "You own a SuperCar" :"Your car is not that special";
 }
 
+
 const hp = process.argv[2]
 const weight = process.argv[3] 
 
+function howFast(MPH){
+    return MPH >= 190 ? "Oh you're FAST FAST": "Join the club Bucko"
+}
 
-
-horsePowerToWeight(hp, weight)
+//const answer = horsePowerToWeight(hp, weight)
+//console.log(answer)
