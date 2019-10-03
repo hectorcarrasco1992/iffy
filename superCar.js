@@ -14,4 +14,4 @@ const weight = process.argv[3]
 
 
 
-console.log(horsePowerToWeight(hp, weight))
+horsePowerToWeight(hp, weight)
