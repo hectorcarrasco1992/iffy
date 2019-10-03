@@ -1,6 +1,7 @@
 // depending on the ratio determine if car is a supercar  or not 
-// if 1 give back not that special
-// if above certain value give back supercar
+// if less than 1 give back "Your car is not that special"
+// if  1 and above give back "You own a SupeCar"
+
 
 
 function horsePowerToWeight(horsePower,weight){
