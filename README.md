@@ -1,22 +1,24 @@
-# Iffy
+Super Car 
 
-### Introduction
+### The Super Toxic SuperCar App
 
-Today you're going to make a little node app that can take in user input and spit out appropriate output. All on the command line. Because we're all ninjas now!
+The Super Toxic SuperCar Ap will tell you whether your car is a "SuperCar" in a sarcastic and judgemental way. It can also judge if your car us fast or not in an elitist fashion.
 
+### Example 
+function horsePowerToWeight(horsePower,weight){
+    let hpw = horsePower/weight
 
-### Objectives
+    return hpw >= 1 ? "You own a SuperCar" :"Your car is not that special";
+}
 
-After completing this assignment, you will be able to:
+### The Setup
+    1. Fork the repo and clone in terminal
+    2. make sure you are running node
+    3. type node superCar.js (car Horsepower)(Car weight) (car top Speed)
+    4. you will receive feed back based on these variables.
 
-* Parse command line text to find the arguments you want.
-* Format those arguments if need be.
-* Use if/else/else-if statements to branch your code.
-* Output text back to the user.
+![alt-text](Screen&#32;Shot&#32;2019-10-08&#32;at&#32;12.29.21&#32;AM.png)
 
-### The Basics
-
-You'll be making a node app that uses `process.argv` to take in input and `console.log` to provide output. And you get to pick what it does! There are some suggestions below, but you can _absolutely_ do something else. We'll be presenting these, so put your best foot forward!
 
 If you need a reminder how to use `process.argv`, remember that we can use indices to grab different parts of it. Every _space-separated string_ the user writes after `node [filename].js` will be there, _starting at index 2_. (Index 0 is the string `'node'` and index 1 is the string containing your filename.) Importantly, they'll all come in as strings, so if you want booleans or numbers, you'll have to do conversion of one kind or another!
 
